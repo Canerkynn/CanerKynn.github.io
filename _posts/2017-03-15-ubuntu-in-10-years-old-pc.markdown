@@ -1,12 +1,12 @@
 ---
 layout: post
 cover: assets/images/1.jpg
-title: Ubuntu in old PC
-date: 2017-03-15 12:00:00 +0545
+title: Makine Öğrenmesi Nedir ?
+date: 2019-09-11 18:00:00
 categories: blog
-author: john
+author: caner
 featured: true
-summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+summary: Makine Öğrenmesi Nedir ?
 ---
 
  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
