@@ -21,7 +21,9 @@ post_class: post-template
                     <ul class="tags">
                         {% assign sortedCategories = page.categories | sort %}
                         {% for category in sortedCategories %}
-                        
+                        <li>
+                         <a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category }}</a>
+                        </li>
                         {% endfor %}
                     </ul>
                 </div>
@@ -70,11 +72,19 @@ post_class: post-template
             <!-- End Prev/Next -->
 
              <!-- Author Box -->
-                <div class="row post-top-meta">
-			<div class="col-md-2">
-				<img class="author-thumb" src="/assets/images/john.jpg" alt="John Doe">
-			</div>
-		<div class="col-md-10">
+                {% if page.author %}
+				<div class="row post-top-meta">
+					<div class="col-md-2">
+						<img class="author-thumb" src="{{ author.image }}" alt="{{ author.display_name }}">
+					</div>
+					<div class="col-md-10">
+						<a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a><br>
+						<span class="author-description">{{ author.description }}</span>
+					</div>
+				</div>
+                {% endif %}
+
+             {% include related_posts.html %}
 
             <!-- Begin Comments
             ================================================== -->
@@ -105,3 +115,4 @@ post_class: post-template
 
 <!-- End Article
 ================================================== -->
+
