@@ -13,7 +13,7 @@ sharethis:
 
 # Authors
 authors:
-  john:
+  caner:
     name: Caner
     display_name: Caner Koyun
     image: /assets/images/john.jpg
@@ -53,7 +53,7 @@ facebook:
   admins:
 
 social:
-name: John Doe
+name: Caner Koyun
 links:
     - https://twitter.com/
     - https://www.facebook.com/
