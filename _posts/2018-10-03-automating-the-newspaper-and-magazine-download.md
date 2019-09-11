@@ -4,8 +4,8 @@ cover:  assets/images/4.jpg
 title: Automating the Newspaper download
 date: 2018-10-03 00:00:00 +0545
 categories: blog
-author: john
-summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+author: caner
+summary: değiştirildi
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
