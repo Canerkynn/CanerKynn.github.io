@@ -1,11 +1,11 @@
 ---
 layout: post
 cover:  assets/images/3.jpg
-title: Auto deploy your static site in github
-date: 2017-12-09 12:00:00 +0545
+title: Derin Öğrenme Nedir ?
+date: 2019-09-11 19:00:00
 categories: blog
-author: john
-summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+author: caner
+summary: Derin Öğrenme Nedir ?
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
