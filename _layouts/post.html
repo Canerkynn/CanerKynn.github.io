@@ -14,14 +14,14 @@ post_class: post-template
         {% assign author = site.authors[page.author] %}
 
 		<div class="col-sm-8">
+			<div class="mainheading">
+
                 <!-- Post Categories -->
                 <div class="after-post-tags">
                     <ul class="tags">
                         {% assign sortedCategories = page.categories | sort %}
                         {% for category in sortedCategories %}
-                        <li>
-                         <a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category }}</a>
-                        </li>
+                       
                         {% endfor %}
                     </ul>
                 </div>
@@ -82,7 +82,7 @@ post_class: post-template
 				</div>
                 {% endif %}
 
-            
+             
 
             <!-- Begin Comments
             ================================================== -->
@@ -90,7 +90,7 @@ post_class: post-template
 
             <div id="comments">
 
-              
+              {% include disqus.html %}
 
             </div>
 
